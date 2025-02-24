@@ -18,7 +18,7 @@ const Menu = ({ forAdmin = false }: { forAdmin?: boolean }) => {
   return (
     <div className='flex justify-end'>
       <nav className='md:flex gap-3 hidden w-full'>
-        {/* <LanguageSwitcher /> */}
+        <LanguageSwitcher />
         <ThemeSwitcher />
         <UserButton />
         {forAdmin ? null : <CartButton />}
@@ -35,7 +35,7 @@ const Menu = ({ forAdmin = false }: { forAdmin?: boolean }) => {
                 <SheetDescription></SheetDescription>
               </div>
             </SheetHeader>
-            {/* <LanguageSwitcher /> */}
+            <LanguageSwitcher />
             <ThemeSwitcher />
             <UserButton />
             <CartButton />
