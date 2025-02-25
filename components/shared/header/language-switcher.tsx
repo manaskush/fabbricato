@@ -35,9 +35,7 @@ export default function LanguageSwitcher() {
     <DropdownMenu>
       <DropdownMenuTrigger className='header-button h-[41px]'>
         <div className='flex items-center gap-1'>
-          <span className='text-xl'>
-            {locales.find((l) => l.code === locale)?.icon}
-          </span>
+          
           {locale.toUpperCase().slice(0, 2)}
           <ChevronDownIcon />
         </div>
@@ -52,7 +50,7 @@ export default function LanguageSwitcher() {
                 href={pathname}
                 locale={c.code}
               >
-                <span className='text-lg'>{c.icon}</span> {c.name}
+               {c.name}
               </Link>
             </DropdownMenuRadioItem>
           ))}
