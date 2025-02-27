@@ -4,6 +4,7 @@ import { HomeCarousel } from '@/components/shared/home/home-carousel'
 import ProductSlider from '@/components/shared/product/product-slider'
 import ActivewearFeatures from '@/components/ui/activewear'
 import { Card, CardContent } from '@/components/ui/card'
+import FeaturedIn from '@/components/ui/featuredin'
 
 import {
   getProductsForCard,
@@ -96,6 +97,9 @@ export default async function HomePage() {
       </div>
       <div className='p-4 bg-border'>
         <BrowsingHistoryList />
+      </div>
+      <div>
+        <FeaturedIn/>
       </div>
     </>
   )
