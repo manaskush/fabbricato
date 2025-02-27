@@ -15,7 +15,7 @@ const features: Feature[] = [
   },
   {
     title: 'Comfort',
-    description: 'The primary attribute of every Fabbricato garment is our signature-soft feel and better wearing experience.',
+    description: 'The primary attribute of every Misfit garment is our signature-soft feel and better wearing experience.',
     icon: <Cloud className="w-12 h-12 text-lime-500" />
   },
   {
